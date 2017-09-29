@@ -185,6 +185,21 @@
 	width: 8rem;
 }
 
+.tribe-datepicker-button {
+	font: normal 20px dashicons;
+	color: #000;
+	opacity: 0.35;
+	height: 26px;
+	width: 28px;
+	margin: 0 0 0 -28px;
+	padding: 2px 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	line-height: 20px;
+}
+
 .tribe-community-event-info {
 	width: 100%;
 	margin: 10px;
