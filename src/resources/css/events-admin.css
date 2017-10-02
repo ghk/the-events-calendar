@@ -138,12 +138,33 @@
 
 .eventForm .tribe-datetime-block .tribe-field-start_date,
 		.eventForm .tribe-datetime-block .tribe-field-end_date {
-	width: 100px;
+	width: 115px;
 }
 
 .eventForm .tribe-datetime-block .tribe-field-start_time,
 		.eventForm .tribe-datetime-block .tribe-field-end_time {
 	width: 80px;
+}
+
+.eventForm .tribe-datetime-block .ui-datepicker-trigger {
+	border: none;
+	background: none;
+	outline: none;
+	font: normal 20px dashicons;
+	opacity: 0.35;
+	height: 28px;
+	width: 28px;
+	margin: -4px 0 0 -30px;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.eventForm .tribe-datetime-block .ui-datepicker-trigger:hover {
+	opacity: 0.5;
 }
 
 .eventForm .tribe-datetime-block .tribe-field-timezone {
@@ -183,21 +204,6 @@
 .ui-datepicker select.ui-datepicker-month {
 	width: 128px;
 	width: 8rem;
-}
-
-.tribe-datepicker-button {
-	font: normal 20px dashicons;
-	color: #000;
-	opacity: 0.35;
-	height: 26px;
-	width: 28px;
-	margin: 0 0 0 -28px;
-	padding: 2px 0 0;
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
-	text-decoration: none;
-	line-height: 20px;
 }
 
 .tribe-community-event-info {

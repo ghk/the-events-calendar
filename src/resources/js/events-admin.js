@@ -544,9 +544,8 @@ jQuery( document ).ready( function( $ ) {
 			numberOfMonths  : get_datepicker_num_months(),
 			firstDay        : startofweek,
 			showButtonPanel : false,
-			showOn          : 'button',
-			buttonText      : 'Calendar View',
-			showOnFocus     : true,
+			showOn          : 'both',
+			buttonText      : '&#xf145;',
 			beforeShow      : function( element, object ) {
 				object.input.datepicker( 'option', 'numberOfMonths', get_datepicker_num_months() );
 				object.input.data( 'prevDate', object.input.datepicker( "getDate" ) );
@@ -573,21 +572,24 @@ jQuery( document ).ready( function( $ ) {
 				// fire the change and blur handlers on the field
 				$( this ).change();
 				$( this ).blur();
+			},
+			onClose: function (dateText, inst) {
+				$(this).focus();
 			}
 		};
 
 		$.extend( tribe_datepicker_opts, tribe_l10n_datatables.datepicker );
 		var $datepicker      = $( '.tribe-datepicker' );
 		var dates            = $datepicker.datepicker( tribe_datepicker_opts );
+		var $datepicker_btn  = $datepicker.next( 'button.ui-datepicker-trigger' );
 		var $start_end_month = $( 'select[name="EventStartMonth"], select[name="EventEndMonth"]' );
 		var $start_month     = $( 'select[name="EventStartMonth"]' );
 		var $end_month       = $( 'select[name="EventEndMonth"]' );
 		var selectObject;
 
-		var $datepicker_button = $( '<a href="#0" class="tribe-datepicker-button">&#xf145;</a>' );
-		$datepicker_button.insertAfter( $datepicker );
-
-		$datepicker_button.on( 'click', function(){ } );
+		$datepicker_btn.each( function () {
+			$( this ).attr( 'tabIndex', '-1' );
+		} );
 
 		if ( is_community_edit ) {
 			var $els = {
