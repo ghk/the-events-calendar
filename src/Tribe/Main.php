@@ -592,7 +592,7 @@ if ( ! class_exists( 'Tribe__Events__Main' ) ) {
 			}
 
 			// Load organizer and venue editors
-			add_action( 'admin_menu', array( $this, 'addVenueAndOrganizerEditor' ) );
+			#add_action( 'admin_menu', array( $this, 'addVenueAndOrganizerEditor' ) );
 
 			add_action( 'tribe_venue_table_top', array( $this, 'display_rich_snippets_helper' ), 5 );
 

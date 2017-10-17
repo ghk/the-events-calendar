@@ -71,6 +71,7 @@ class Tribe__Events__Importer__Admin_Page {
 			return;
 		}
 
+        /*
 		add_submenu_page(
 			$this->admin_page_url,
 			esc_html__( 'Legacy Import', 'the-events-calendar' ),
@@ -79,6 +80,7 @@ class Tribe__Events__Importer__Admin_Page {
 			$this->admin_page_slug,
 			array( $this, 'render_admin_page_contents' )
 		);
+        */
 	}
 
 	public function add_settings_fields( $fields = array() ) {

@@ -16,6 +16,8 @@ codeception.yml
 tests/*.suite.yml
 .env.local
 
+*.swp
+
 # Tests - local output files
 tests/_output
 
