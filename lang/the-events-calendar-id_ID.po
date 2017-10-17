@@ -7,8 +7,8 @@ msgstr ""
 "calendar\n"
 "POT-Creation-Date: 2017-10-04 18:29:22+00:00\n"
 "PO-Revision-Date: 2016-10-10 15:12+0700\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: Sideka\n"
+"Language-Team: Sideka\n"
 "Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,20 +119,20 @@ msgstr ""
 #: src/functions/template-tags/loop.php:207
 msgctxt "day_view"
 msgid "%1$s for %2$s"
-msgstr ""
+msgstr "%1$s pada %2$s"
 
 #: src/functions/template-tags/loop.php:198
 msgctxt "month view"
 msgid "%1$s for %2$s"
-msgstr ""
+msgstr "%1$s pada %2$s"
 
 #: src/functions/template-tags/loop.php:191
 msgid "%1$s for %2$s - %3$s"
-msgstr ""
+msgstr "%1$s pada %2$s - %3$s"
 
 #: src/Tribe/Main.php:968
 msgid "%1$s or %2$s"
-msgstr ""
+msgstr "%1$s atau %2$s"
 
 #. translators: %s: date and time of the revision
 #: src/Tribe/Main.php:1766 src/Tribe/Main.php:1803
@@ -205,11 +205,11 @@ msgstr "Biaya %s"
 
 #: src/Tribe/Main.php:4386
 msgid "%s From"
-msgstr ""
+msgstr "%s Dari"
 
 #: src/Tribe/Main.php:4384
 msgid "%s In"
-msgstr ""
+msgstr "%s Di"
 
 #: src/Tribe/Main.php:3741 src/Tribe/Main.php:3752
 msgid "%s Information"
@@ -260,7 +260,7 @@ msgstr "%s rancangan diperbarui."
 
 #: src/functions/template-tags/general.php:1168
 msgid "%s for"
-msgstr ""
+msgstr "%s pada"
 
 #: src/Tribe/Ignored_Events.php:136
 msgid "%s post moved to the Trash"
@@ -446,7 +446,7 @@ msgstr ""
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:53
 msgid "Add %s"
-msgstr "Tambahkan %s"
+msgstr "Tambah %s"
 
 #: src/admin-views/tribe-options-display.php:220
 msgid "Add HTML after event content"
@@ -458,7 +458,7 @@ msgstr "Tambahkan HTML sebelum konten event "
 
 #: src/Tribe/Main.php:1715 src/Tribe/Organizer.php:91 src/Tribe/Venue.php:110
 msgid "Add New"
-msgstr "Tambahkan Baru"
+msgstr "Tambah Baru"
 
 #: src/Tribe/Aggregator/Records.php:170
 #, fuzzy
@@ -546,13 +546,11 @@ msgid "Aggregator Records"
 msgstr ""
 
 #: src/Tribe/Admin_List.php:330
-#, fuzzy
 msgctxt "%s Event count in admin list"
 msgid "All %s"
 msgstr "Semua %s"
 
 #: src/views/single-event.php:28
-#, fuzzy
 msgctxt "%s Events plural label"
 msgid "All %s"
 msgstr "Semua %s"
@@ -580,7 +578,7 @@ msgstr "Sepanjang Hari"
 #: src/Tribe/Importer/Column_Mapper.php:72
 #: src/admin-views/events-meta-box.php:144
 msgid "All Day Event"
-msgstr "Event Sepanjang Hari"
+msgstr "Kegiatan Sepanjang Hari"
 
 #: src/Tribe/Aggregator/Tabs/Scheduled.php:357
 msgid ""
@@ -971,17 +969,16 @@ msgid "Create New %s"
 msgstr "Buat %s Baru"
 
 #: src/Tribe/Linked_Posts.php:923 src/Tribe/Linked_Posts.php:929
-#, fuzzy
 msgid "Create or Find %s"
-msgstr "Buat %s Baru"
+msgstr "Buat atau Cari %s"
 
 #: src/Tribe/Linked_Posts.php:943
 msgid "Create: <b><%= term %></b>"
-msgstr ""
+msgstr "Buat: <b><%= term %></b>"
 
 #: src/Tribe/Aggregator/Record/Queue_Realtime.php:93
 msgid "Created:"
-msgstr ""
+msgstr "Terbuat"
 
 #: src/Tribe/Aggregator/Tabs/New.php:432
 #, fuzzy
@@ -1345,7 +1342,7 @@ msgstr "Cutoff akhir hari"
 #: src/deprecated/Tribe__Events__Advanced_Functions__Register_Meta.php:89
 #: src/views/modules/meta/details.php:70 src/views/modules/meta/details.php:95
 msgid "End:"
-msgstr "End:"
+msgstr "Berakhir:"
 
 #: src/Tribe/REST/V1/Endpoints/Archive_Category.php:113
 #: src/Tribe/REST/V1/Endpoints/Archive_Tag.php:130
@@ -1613,11 +1610,11 @@ msgstr "Link Event Tampilkan Peta"
 
 #: src/Tribe/Importer/Column_Mapper.php:67
 msgid "Event Start Date"
-msgstr "Tanggal Mulai Event"
+msgstr "Tanggal Mulai Kegiatan"
 
 #: src/Tribe/Importer/Column_Mapper.php:68
 msgid "Event Start Time"
-msgstr "Waktu Mulai Event"
+msgstr "Waktu Mulai Kegiatan"
 
 #: src/Tribe/Importer/Column_Mapper.php:74
 msgid "Event Sticky in Month View"
@@ -1858,9 +1855,8 @@ msgid ""
 msgstr ""
 
 #: src/Tribe/iCal.php:108
-#, fuzzy
 msgid "Export Events"
-msgstr "Ubah Jadwal"
+msgstr "Ekspor Kegiatan"
 
 #: src/admin-views/admin-welcome-message.php:47
 msgid "FAQs, Documentation, Tutorials and Forums"
@@ -1909,9 +1905,8 @@ msgid "Favorite Imports"
 msgstr "Impor Kegiatan"
 
 #: src/admin-views/event-sidebar-options.php:31
-#, fuzzy
 msgid "Feature Event"
-msgstr "Ubah Jadwal"
+msgstr "Unggulkan Kegiatan"
 
 #: src/functions/template-tags/loop.php:166
 msgctxt "featured events title"
@@ -1974,7 +1969,7 @@ msgstr ""
 
 #: src/views/modules/bar.php:34 src/views/modules/bar.php:65
 msgid "Find %s"
-msgstr ""
+msgstr "Cari %s"
 
 #: src/views/day/single-event.php:78 src/views/day/single-featured.php:67
 #: src/views/list/single-event.php:92 src/views/list/single-featured.php:78
@@ -2511,15 +2506,15 @@ msgstr ""
 
 #: src/Tribe/Main.php:4343
 msgid "Keyword"
-msgstr ""
+msgstr "Kata Kunci"
 
 #: src/admin-views/aggregator/origins/refine.php:3
 msgid "Keyword(s)"
-msgstr ""
+msgstr "Kata Kunci"
 
 #: src/Tribe/Aggregator/Record/List_Table.php:489
 msgid "Keywords:"
-msgstr ""
+msgstr "Kata Kunci:"
 
 #: src/Tribe/Customizer/General_Theme.php:372
 msgid "Lagoon"
@@ -2805,7 +2800,7 @@ msgstr "Bulan"
 #: src/Tribe/Customizer/Month_Week_View.php:143
 #, fuzzy
 msgid "Month View"
-msgstr "Tempelkan di Tampilan Bulan"
+msgstr "Munculkan di Tampilan Bulan"
 
 #: src/admin-views/tribe-options-display.php:102
 msgid "Month and year format"
@@ -3624,7 +3619,7 @@ msgstr "Pencarian"
 
 #: src/Tribe/Main.php:1720 src/Tribe/Organizer.php:96 src/Tribe/Venue.php:115
 msgid "Search %s"
-msgstr "Pencarian %s"
+msgstr "encarian %s"
 
 #: src/Tribe/Main.php:1733
 msgid "Search %s Categories"
@@ -3922,14 +3917,13 @@ msgstr "Tanggal Mulai"
 #: src/admin-views/aggregator/tabs/import-form.php:194
 #, fuzzy
 msgid "Start Time"
-msgstr "Waktu Mulai Event"
+msgstr "Waktu Mulai Kegiatan"
 
 #: src/Tribe/Aggregator/Record/List_Table.php:378
 msgid "Start an import from this source now, regardless of schedule."
 msgstr ""
 
 #: src/admin-views/events-meta-box.php:72
-#, fuzzy
 msgid "Start/End:"
 msgstr "Mulai/Sampai:"
 
@@ -5118,7 +5112,7 @@ msgstr ""
 
 #: src/views/widgets/list-widget.php:118
 msgid "There are no upcoming %s at this time."
-msgstr ""
+msgstr "Tidak ada %s mendatang."
 
 #: src/Tribe/Aggregator/Errors.php:65 src/Tribe/Aggregator/Service.php:187
 #: src/Tribe/Aggregator/Service.php:194
@@ -5170,7 +5164,7 @@ msgstr ""
 
 #: src/Tribe/Template/Embed.php:59 src/Tribe/Template/Single_Event.php:119
 msgid "This %s has passed."
-msgstr ""
+msgstr "%s ini telah berlalu."
 
 #: src/Tribe/Importer/Admin_Page.php:138
 msgid ""
@@ -5677,7 +5671,7 @@ msgstr ""
 
 #: src/views/modules/bar.php:42
 msgid "View As"
-msgstr "View As"
+msgstr "Lihat Sebagai"
 
 #: src/Tribe/Admin/Bar/Default_Configurator.php:45 src/Tribe/Main.php:4216
 msgid "View Calendar"
@@ -6442,7 +6436,7 @@ msgstr ""
 #: src/admin-views/events-meta-box.php:99
 msgctxt "Start Date Time \"to\" End Date Time"
 msgid "to"
-msgstr ""
+msgstr "sampai"
 
 #: src/Tribe/Main.php:738
 msgid "today"
