@@ -5256,7 +5256,7 @@ msgstr "Tiket"
 
 #: src/admin-views/events-meta-box.php:52
 msgid "Time &amp; Date"
-msgstr "Waktu &amp; Tempat"
+msgstr "Waktu"
 
 #: src/admin-views/tribe-options-display.php:117
 msgid "Time range separator"
