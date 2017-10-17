@@ -1176,7 +1176,7 @@ msgstr ""
 
 #: src/views/modules/meta/details.php:55
 msgid "Details"
-msgstr "Detil"
+msgstr "Detail"
 
 #: src/Tribe/Customizer/Single_Event.php:132
 msgid "Details Background Color"
