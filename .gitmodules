@@ -6,4 +6,4 @@
 	url = git://github.com/kartik-v/php-date-formatter
 [submodule "common"]
 	path = common
-	url = git@github.com:moderntribe/tribe-common.git
+	url = git@github.com:ghk/tribe-common.git
