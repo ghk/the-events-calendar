@@ -196,8 +196,8 @@ msgstr "Kategori %s"
 msgctxt "category list label"
 msgid "%s Category"
 msgid_plural "%s Categories"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kategori %s"
+msgstr[1] "Kategori %s"
 
 #: src/admin-views/events-meta-box.php:209
 msgid "%s Cost"
@@ -1263,7 +1263,7 @@ msgstr "Ubah %s"
 
 #: src/Tribe/Main.php:1737
 msgid "Edit %s Category"
-msgstr ""
+msgstr "Ubah Kategori %s"
 
 #: src/Tribe/Aggregator/Records.php:173
 msgid "Edit Aggregator Record"
