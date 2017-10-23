@@ -189,7 +189,7 @@ msgstr "Kategori %s"
 
 #: src/Tribe/Main.php:1732
 msgid "%s Category"
-msgstr ""
+msgstr "Kategori %s"
 
 #. translators: %s is the singular translation of "Event"
 #: src/functions/template-tags/general.php:406
@@ -213,7 +213,7 @@ msgstr "%s Di"
 
 #: src/Tribe/Main.php:3741 src/Tribe/Main.php:3752
 msgid "%s Information"
-msgstr ""
+msgstr "Informasi %s"
 
 #: src/views/list/nav.php:20
 msgid "%s List Navigation"
@@ -4310,9 +4310,8 @@ msgid "The event author WordPress post ID"
 msgstr ""
 
 #: src/Tribe/REST/V1/Documentation/Event_Definition_Provider.php:167
-#, fuzzy
 msgid "The event categories"
-msgstr "Kategori Kegiatan"
+msgstr "Kategori-kategory Kegiatan"
 
 #: src/Tribe/REST/V1/Endpoints/Single_Category.php:31
 #, fuzzy
@@ -5430,7 +5429,7 @@ msgstr "Kegiatan Mendatang"
 
 #: src/Tribe/Main.php:1738
 msgid "Update %s Category"
-msgstr ""
+msgstr "Perbaharui Kategory %s"
 
 #: src/admin-views/aggregator/settings.php:495
 msgid "Update Authority"
